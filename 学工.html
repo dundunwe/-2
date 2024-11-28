@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>陕职校园电子身份码</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  .header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+  }
+  .header .rating {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .profile {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  .profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .profile .status {
+    background-color: #4caf50;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    margin-left: auto;
+  }
+  .qr-code {
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .qr-code img {
+    width: 100px;
+    height: 100px;
+  }
+  .menu {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .menu-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  .menu-item:last-child {
+    border-bottom: none;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -1px 5px rgba(0,0,0,0.1);
+  }
+  .footer-item {
+    text-align: center;
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  陕职校园电子身份码
+  <div class="rating">2.4</div>
+</div>
+
+<div class="profile">
+  <img src="touxiang.jpg" alt="Profile Picture">
+  <div>魏江宏</div>
+  <div class="status">在校生</div>
+</div>
+
+<div class="qr-code">
+  <img src="erweima.jpg" alt="QR Code">
+</div>
+
+<div class="menu">
+  <div class="menu-item">个人信息</div>
+  <div class="menu-item">与我相关</div>
+  <div class="menu-item">退出登录</div>
+</div>
+
+<div class="footer">
+  <div class="footer-item">首页</div>
+  <div class="footer-item">应用</div>
+  <div class="footer-item">我的</div>
+</div>
+
+</body>
+</html>
